@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Sofia&display=swap");
+
+h1{
+    font-family: "Roboto", sans-serif;
+    font-size: 50px;
+    text-align: center;
+    font-weight: 700;
+    color: #3b28cc;
+}
+
+
+body {
+    font-family: "Roboto", sans-serif;
+    background-color: #cccccc;
+    background-image: url(/img/foto-biprovincial-2-660x350.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+}
+
+
+
+button{
+    font-family: 'Roboto';
+    background: #5f2c82; /* fallback for old browsers */
+    background: -webkit-linear-gradient(
+        to right,
+        #49a09d,
+        #5f2c82
+    ); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(
+        to right,
+        #49a09d,
+        #5f2c82
+    );
+    border: none;
+    display: block;
+    margin: 10px auto;
+    color: #fff;
+    height: 40px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 30px;
+    padding: 15px;
+}
